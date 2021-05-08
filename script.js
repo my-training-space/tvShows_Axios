@@ -24,7 +24,7 @@ const fetchNewShows = async (query) => {
 function displayTvShow(name, img){
 
     const newCard = document.createElement('div');
-    newCard.classList.add('card', 'col', 'col-12', 'col-2');
+    newCard.classList.add('card', 'col', 'col-12', 'col-md-2');
 
     const newCardBody = document.createElement('div');
     newCardBody.classList.add('card-body');
